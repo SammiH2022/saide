@@ -1,8 +1,7 @@
-'use client'
-import React from 'react'
-import Link from 'next/link'
+import Link from "next/link"
 
-export function ClientOnly() {
+export default function Page() {
+
     return (
         <div className="h-screen flex flex-col justify-center gap-y-8 place-items-center">
             <h1 className="font-sans font-semibold text-5xl bold mb-10">

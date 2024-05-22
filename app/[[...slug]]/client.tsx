@@ -11,7 +11,7 @@ export function ClientOnly() {
             <div className="flex flex-row gap-x-2">
                 <Link
                     className="btn btn-primary"
-                    href="main"
+                    href="/login"
                 >
                     Login
                 </Link>

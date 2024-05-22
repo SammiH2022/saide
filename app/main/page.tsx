@@ -1,6 +1,7 @@
 'use client'
 import Navbar from "./navbar";
 import SideMenu from "./sideMenu";
+import React from "react";
 
 const files = {
     children: [

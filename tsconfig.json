@@ -23,7 +23,10 @@
       "dom",
       "dom.iterable",
       "esnext"
-    ]
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    },
   },
   "include": [
     "./dist/types/**/*.ts",

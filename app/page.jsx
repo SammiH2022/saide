@@ -1,4 +1,5 @@
 import Link from "next/link"
+import LoginModal from "@/components/loginModal"
 
 export default function Page() {
 
@@ -10,7 +11,7 @@ export default function Page() {
             <div className="flex flex-row gap-x-2">
                 <Link
                     className="btn btn-primary"
-                    href="/login"
+                    href="?modal=true"
                 >
                     Login
                 </Link>
@@ -21,6 +22,7 @@ export default function Page() {
                     Guest
                 </Link>
             </div>
+            <LoginModal />
         </div>
     );
 }

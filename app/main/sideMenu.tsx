@@ -1,5 +1,5 @@
 import { useState, FC } from "react"
-import { SideMenuIcon } from "./menuIcon"
+import { SideMenuIcon } from "../../components/menuIcon"
 import React from "react"
 
 interface TreeNode{

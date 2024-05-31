@@ -22,7 +22,7 @@ export default function Page() {
                     Guest
                 </Link>
             </div>
-            <LoginModal />
+            <LoginModal/>
         </div>
     );
 }

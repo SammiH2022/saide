@@ -2,7 +2,7 @@ type Props = {
     item: string
 }
 
-export default function TopMenuIcon (props: Props) {
+export default function TopMenuIcon(props: Props) {
 
     const item = props.item
 

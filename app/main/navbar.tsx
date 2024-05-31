@@ -1,4 +1,4 @@
-import TopMenuIcon from './menuIcon';
+import TopMenuIcon from '../../components/menuIcon';
 
 export default function Navbar() {
 
